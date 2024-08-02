@@ -1,0 +1,82 @@
+td,th,tr,table{
+    border: 1px solid black;
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 155, 155);
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.price{
+    background-color: brown;
+    color: aliceblue;
+    width: auto;
+    margin-left: auto;
+    padding: auto;
+    margin-top: 2vh;
+}
+
+.del{
+    background-color: brown;
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+    border: 0px;
+    margin: 5px;
+    
+}
+
+.name{
+    background-color: brown;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.pages{
+   color: aliceblue;
+   background-color: brown;
+   padding: 5px;
+   margin-top: 0.5rem;
+}
+
+.add{
+    background-color: brown;
+    color:  rgb(233, 155, 155);
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0.5rem;
+}
+
+#myd{
+    border: 3px solid brown;
+    margin-left: 1rem;
+    background-color: rgb(233, 155, 155);
+    color: brown;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+form>div{
+    margin: 10px;
+}
+

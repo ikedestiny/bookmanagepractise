@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+    <div class="books">
+        <!-- the new books will be inserted here -->
+    </div>
+
+    <button class="add" id="addButton">Add book</button>
+
+    <dialog id="myd">
+        <form id="addForm" action="">
+            <div>
+                <label for="name">name: </label>
+            <input required type="text" name="name">
+            </div>
+            <div>
+                <label for="price">price: </label>
+                <input required type="text" name="price">
+            </div>
+            <div>
+                <label for="pages">pages: </label>
+                <input required type="text" name="pages">
+            </div>
+
+            <button class="add" id="submitButton">submit</button>
+            
+           
+        </form>
+    </dialog>
+
+
+
+    <script src='book.js'></script>
+
+</body>
+</html>
